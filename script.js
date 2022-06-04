@@ -19,12 +19,12 @@ function update(){
             n = 5*n+26.25;
             g = 'B+';
         }
-        else if(Number(s)>=6.75 && Number(s)<=8.25){
+        else if(Number(s)>=6.75 && Number(s)<8.25){
             n = 10*n-7.5;
             g = 'A';
         }
-        else if(Number(s)>8.25 && Number(s)<9.50){
-            n = 12*n-25;
+        else if(Number(s)>=8.25 && Number(s)<9.50){
+            n = 12*n-24;
             g = 'A+';
         }
         else if(Number(s)>=9.50 && Number(s)<=10){
